@@ -121,7 +121,7 @@ graph TD
         B <-->|Thread-Safe Pool| C[(PostgreSQL 16)]
         C -.->|Nightly ETL| D[Background Scheduler Daemon]
     end
-    
+
     subgraph External Integrations
         D -->|AES-128 Encrypted SQL| E[Local/Cloud Storage]
         B -->|REST API| H[Twilio WhatsApp / SMS]
@@ -129,3 +129,18 @@ graph TD
         B -->|SMTP| I[Email Delivery]
         G <-->|UDP Ping| J[pool.ntp.org]
     end
+```
+---
+
+### 📫 Let's Connect
+
+TriVet represents my ability to take a complex business problem and engineer a secure, highly scalable, and beautiful full-stack solution from scratch.
+
+🚀 Looking to hire a Senior Backend / Full-Stack Engineer? Let's talk.
+🏥 Want to deploy TriVet in your clinic? Reach out for a demo.
+
+Email: AlandDiary@outlook.com
+
+
+    © 2026 TriTakion. All Rights Reserved.
+    The architectural documentation, system diagrams, and media assets presented in this repository are the intellectual property of the author. They may not be copied, reproduced, or used without express permission.
